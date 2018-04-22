@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001"));
+                        Uri.parse("https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004"));
                 startActivity(browserIntent);
             }
         });
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent browserIntent = new Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004"));
+                        Uri.parse("https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001"));
                 startActivity(browserIntent);
             }
         });
