@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTextViewStyle1">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_nano</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:drawablePadding">@dimen/padding_title</item>
+    </style>
+
+    <style name="MyTextViewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_card</item>
+        <item name="android:layout_marginStart">@dimen/margin_card_left</item>
+        <item name="android:padding">@dimen/padding_title</item>
+        <item name="android:drawablePadding">@dimen/padding_card</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

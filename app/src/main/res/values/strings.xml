@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="udacity">dacity</string>
+    <string name="phone">650–555–5555</string>
+    <string name="udacity_website">www.udacity.com</string>
+    <string name="address">2465 Latham St, Mountain View\nCA 94043</string>
+    <string name="jobs_tomorrow">Jobs of Tomorrow Start Here</string>
+    <string name="android_nano">Android Developer</string>
+    <string name="web_nano">Web Developer</string>
+    <string name="nanos">Nanodegrees</string>
+    <string name="full_stack_nano">Full Stack Web Developer</string>
+    <string name="contact">Contact</string>
+</resources>
