@@ -65,9 +65,7 @@ public class MainActivity extends AppCompatActivity {
         androidNanodegree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://in.udacity.com/course/android-basics-nanodegree-by-google--nd803"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://in.udacity.com/course/android-basics-nanodegree-by-google--nd803"));
                 startActivity(browserIntent);
             }
         });
@@ -75,9 +73,7 @@ public class MainActivity extends AppCompatActivity {
         fullStackNanodegree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://in.udacity.com/course/full-stack-web-developer-nanodegree--nd004"));
                 startActivity(browserIntent);
             }
         });
@@ -85,9 +81,7 @@ public class MainActivity extends AppCompatActivity {
         webNanodegree.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001"));
                 startActivity(browserIntent);
             }
         });
@@ -116,8 +110,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
-
 
 
 }
